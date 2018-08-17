@@ -11,10 +11,10 @@
 # Free version
 # ---------------------------------------------------------------------------------------
 home:                  Home
-pages:                 Pages
-posts:                 Posts
+pages:                 Stránky
+posts:                 Zápisy
 about:                 About
-related_posts:         Related Posts
+related_posts:         Příbuzné zápisy
 other_projects:        Other Projects
 comments:              Comments
 jump_to:               Jump to
@@ -22,8 +22,8 @@ navigation:            Navigation
 social:                Social
 links:                 Links
 pagination:            Pagination
-newer:                 Newer
-older:                 Older
+newer:                 Novější
+older:                 Starší
 back:                  Back
 templates:             Templates (for web app)
 
@@ -31,7 +31,7 @@ loading:               Loading…
 redirecting:           Redirecting…
 
 continue_reading:      >
-  Continue reading <!--post_title-->
+  Více <!--post_title-->
 
 not_found:
   title:               '404: Page Not Found'
@@ -49,16 +49,16 @@ error:
 # ---------------------------------------------------------------------------------------
 colon:                 ':'
 separator:             '|'
-category_start:        'in '
+category_start:        'v kategorii '
 category_spearator:    ' / '
-tag_start:             'on '
+tag_start:             'pod značkou'
 tag_separator:         ', '
 
 # Date formats
 # ---------------------------------------------------------------------------------------
 date_formats:
-  post:                '%d %b %Y'
-  related_post:        '%d %b %Y'
+  post:                '%d. %m. %Y'
+  related_post:        '%d. %m. %Y'
   list_group_by:       '%Y'
   list_entry:          '%d %b'
   project:             '%Y'
